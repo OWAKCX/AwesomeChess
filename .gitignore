@@ -1,4 +1,19 @@
+# dependencies
 node_modules/
-.env
-.DS_Store
+
+# builds
+.next/
+out/
 dist/
+
+# env vars
+.env
+.env.local
+
+# OS
+.DS_Store
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
